@@ -1,0 +1,154 @@
+/**log in.css**/
+
+/*Top*/
+body{
+    background-image: url(./back.jpg);
+    background-size:cover;  
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+a:link { text-decoration: none;}
+.top{
+    position: relative;
+    top:50px;
+    background-color:rgb(255, 127, 39);
+    padding: 1px 80px 5px 1px;
+    text-align:center;
+  }
+  .toptitle{
+    color:White;
+    font-size:36px;
+    font-family: 'Segoe print','Comic Sans MS';
+    display:block;
+}
+
+
+/*log*/
+.log1{
+    display:block;
+    background-color:rgb(255, 207, 153);
+    padding: 20px 100px 70px 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    width:300px;
+    height:300px;  
+  }
+  .log3{
+    display:block;
+    background-color:rgb(255, 207, 153);
+    padding: 20px 100px 50px 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    width:300px;
+    height:250px;  
+  }
+.loginfont{
+    position: relative;
+    bottom:18px;
+    font-family: 'Segoe print','Comic Sans MS',Arial;  
+  }
+  .loginfont1{
+    position: relative;
+    bottom:22px;
+    left:60px;
+    font-family: 'Segoe print','Comic Sans MS',Arial;  
+  }
+.infofont{
+    position: relative;
+    bottom:30px;
+    font-family: 'Segoe print','Comic Sans MS',Arial;  
+    font-size:20px;
+}
+
+
+/*submitbutton*/
+
+.submitbtn{
+    width:250px;
+    height:50px;
+    font-size:20px;
+    background-color:#c81e27;
+    color:White;
+    font-family: 'Segoe print','Comic Sans MS';
+    cursor:pointer;
+    border-width: 0px;
+}
+
+/* Turn to Register */
+.register{
+    position: relative;
+    top:20px;       
+    font-family: 'Segoe print','Comic Sans MS';
+    font-size:20px;
+	color:#c81e27;
+	padding:5px 55px 5px 58px;
+	border:1px solid #c81e27;
+    margin:10px 0;
+    width:250px;
+    height:50px;
+}
+
+/* Register Form Border*/
+.registerform{
+    display:block;
+    background-color:rgb(255, 207, 153);
+    font-family: 'Segoe print','Comic Sans MS';
+    padding: 20px 100px 100px 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width:350px;
+    height:430px;   
+  }
+  .backlogin{
+    position: relative;
+    top:20px;
+    font-family: 'Segoe print','Comic Sans MS';
+    font-size:20px;
+	color:#c81e27;
+	padding:5px 50px 5px 50px;
+	border:1px solid #c81e27;
+    margin:10px 0;
+    width:250px;
+    height:50px;
+}
+.homepage{
+  color:#c81e27;
+  font-family: 'Segoe print','Comic Sans MS';
+  font-size:20px;
+  position:relative;
+  left:300px;
+  top:20px;
+
+}
+.homepagelog{
+  color:#c81e27;
+  font-family: 'Segoe print','Comic Sans MS';
+  font-size:20px;
+  position:relative;
+  left:250px;
+  top:30px;
+
+}
+.homepagestaff{
+  color:#c81e27;
+  font-family: 'Segoe print','Comic Sans MS';
+  font-size:20px;
+  position:relative;
+  left:250px;
+  top:0px;
+}
+.registerstaff{
+  display:block;
+  background-color:rgb(255, 207, 153);
+  font-family: 'Segoe print','Comic Sans MS';
+  padding: 20px 100px 100px 150px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  width:350px;
+  height:350px;   
+}

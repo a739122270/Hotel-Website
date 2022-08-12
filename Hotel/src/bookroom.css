@@ -1,0 +1,153 @@
+/**log in.css**/
+
+/*Top*/
+body{
+    background-image: url(./back.jpg);
+    background-size:cover;  
+    background-attachment:fixed;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+.top{
+    position: relative;
+    top:50px;
+    background-color:rgb(255, 127, 39);
+    padding: 1px 80px 5px 1px;
+    text-align: center;
+ 
+
+  }
+.fontfam{
+    font-family: 'Segoe print','Comic Sans MS';
+    font-size:25px;
+}
+  .toptitle{
+    color:White;
+    font-size:36px;
+    font-family: 'Segoe print','Comic Sans MS';
+    display:block;
+    text-decoration: none;
+}
+.booktitle{
+    font-family: 'Segoe print','Comic Sans MS';
+    text-align: center;
+    font-size:40px;
+
+    color:#c81e27;
+    padding-top:0;
+}
+
+
+
+/* for white board*/
+.whiteboard{
+    padding-top:10px;
+    position: relative;
+    top:100px;
+    background-color:rgba(250, 194, 131);
+    margin:0 auto;
+    width:1200px;
+    height:1550px; 
+}
+.index{
+    color:#c81e27;
+}
+.toright{
+    text-align: right;   
+    margin-right:20px;
+    margin-top:5px;
+}
+.pictures{
+    width:350px;
+    height:250px;
+    margin:20px;
+    padding:40px;
+}
+
+.picposition{
+    margin:0 auto;
+    position: relative;
+    bottom:50px;
+
+}
+.price{
+    font-family: 'Segoe print','Comic Sans MS';
+    text-align: center;
+    font-weight:1000;
+    font-size:25px;
+    position: relative;
+    bottom:50px;
+    color:#c81e27;
+}
+
+.backboard{
+    background-color:rgb(253, 133, 63);
+    margin-left:120px;
+    margin-right:120px;
+
+    height:200px;
+    padding-top:50px;
+    border: 3px solid #c81e27;
+
+}
+
+.checkindate{
+    width:200px;
+    margin:60px;
+}
+.checkoutdate{
+    width:200px;
+    position: relative;
+    left:50px;
+}
+
+.sameline{
+    display:inline;
+}
+
+.roomtype{
+    width:200px;
+    margin:60px;
+}
+/**
+.floorchoose{
+    position:relative;
+    left:100px;
+    float:left;
+}
+.roomchoose{
+    float:right;
+    margin-right:200px;
+}
+**/
+.submit{
+    margin-left:90px;
+    width:150px;
+    background-color:#c81e27;
+    color:White;
+    cursor:pointer;
+    border-width: 0px;
+    position: relative;
+    top:5px;
+    right:100px;
+}
+.roomchoose{
+    background-color:#c81e27;
+    padding-left:5px;
+    padding-right:5px;
+    position: relative;
+    right:60px;
+    top:5px;
+    color:white;
+}
+.logout{
+    width:100px;
+    background-color:transparent;
+    text-decoration:underline;
+    color:#c81e27;
+    border:0px;
+    cursor:pointer;
+    font-weight:bold;
+}

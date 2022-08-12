@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head>
+        <title>Sunny Isle Hotel</title>
+        <link type="text/css" rel="stylesheet" href="login.css">
+        <script type="text/javascript" src="logstaff.js">  </script>
+        
+    </head>
+    <body>
+        <!--Top-->
+        <div class ="top">
+            <h1><a  class ="toptitle" href="homepage.html">Welcome to Sunny Isle Hotel!</a></h1>
+        </div>
+        <!--Log in-->
+
+        <div class ="log1">
+            <h1 class="loginfont">Log in - Staff</h1>
+            <form method="POST" action="logstaff.php" onSubmit="return LoginCheck()">
+                    <label class="infofont">Username:<input   id="User"type="text" name="staffname" size ="20"></label><br>
+                    <label  class="infofont">Password:  <input  id="Pass" type="text" name="staffpassword" size ="20" ></label><br> 
+                    <div id="errorsub"><br></div>
+                    <div class ="log2">
+                        <input class="submitbtn" type="submit" onclick="LoginCheck()" value="Log in"></br>
+                    </div>
+                </form>
+                        <a class="register" href="registerstaff.html">Register Now</a>
+                        <a class="homepagelog"  href="homepage.html">>>Homepage</a><br>       
+            </div>
+        </body>
+    </html>

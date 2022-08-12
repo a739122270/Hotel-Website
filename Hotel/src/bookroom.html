@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>Sunny Isle Hotel</title>
+        <link type="text/css" rel="stylesheet" href="bookroom.css">
+        <script type="text/javascript" src="bookroom.js">  </script> 
+    </head>
+    <body>
+            <!--Top-->
+            <div class ="top">
+                <h1><a  class ="toptitle" href="homepage.html">Welcome to Sunny Isle Hotel!</a></h1>
+            </div>
+           <div class = "whiteboard">
+                <div class ="toright">
+                    <a class="index sameline fontfam"  href="homepage.html">>>Home Page</a>
+                    <nobr class="sameline fontfam index"> | </nobr>
+                    <a class="index sameline fontfam"  href="roomorder.php">Your Room Orders</a>
+                    <nobr class="sameline fontfam index"> | </nobr>
+                    <form method="post" action="logout.php">
+                        <input class="logout fontfam" type="submit" value="Log out">
+                    </form>
+                </div>
+                <h1 class="booktitle">Book A Room in Sunny Isle!</h1>
+                <!--choose room-->
+                <div class="backboard">
+                    <form method="POST" action="bookroom.php">
+                    <div class="checkindate sameline fontfam">
+                        <label for="flight-depart">Check in Date:</label>
+                        <input id="start" name="startdate" type="date"/>                        
+                        <!--js-->
+                    </div>
+                    <div class="checkoutdate sameline fontfam">
+                        <label for="flight-return">Check out Date:</label>
+                        <input id="end"  name ="enddate" type="date"/> 
+                        <input id="test" style="display:none" name ="testdate" type="date"/> 
+                        <!--js-->
+                    </div><br><br><br>
+                    <div class="roomtype sameline fontfam">
+                        <label for="flight-class">Room Type</label>
+                        <select id="roomtype" name="roomtype" >
+                            <option value="Select">--Select--</option>
+                            <option  value="VIP room">VIP room</option>
+                            <option  value="Large Double Bed">Large double bed</option>
+                            <option  value="Large Single Bed">Large single bed</option>
+                            <option  value="Small Single Bed">Small single bed</option>
+                        </select>
+                    </div>              
+                    <input class="submit sameline fontfam" type="submit" value="Book" >
+                    <a class="roomchoose sameline fontfam"  href="roomchoose.php">Select a specific room</a><br>
+
+                </form>
+                <div id="errorsubmit"><br></div>
+                </div>
+
+                <h1 class="booktitle">Room Type</h1>
+
+                <!--images-->
+                    <table  class="picposition"  cellspacing="1" >
+                        <tr>
+                                <td> <img class = "pictures" src="single.jpg"/></td>
+                                <td><img class = "pictures" src="bigdouble.jpg"/></td>
+                        </tr>
+                        <tr>
+                                <td class="price">Small Single Bed<br>Price:400 Dollars</td>
+                                <td class="price">Large Single Bed<br>Price:600 Dollars</td>
+                        </tr>
+                        <tr>
+                                <td><img class = "pictures" src="double.jpg"/></td>
+                                <td><img class = "pictures" src="VIP.jpg"/></td>
+                        </tr>
+                        <tr>
+                                <td class="price">Large Double Bed<br>Price:600 Dollars</td>
+                                <td class="price">VIP Room<br>Price:1000 Dollars</td>
+                        </tr>
+                    </table>
+                </div>
+        </body>
+        </html>
+

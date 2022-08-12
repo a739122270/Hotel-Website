@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sunny Isle Hotel - Register</title>
+    <link type="text/css" rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="register.js">
+    </script>
+</head>
+
+<body>
+    <!--Top-->
+    <div class="top">
+        <h1><a class="toptitle" href="homepage.html">Welcome to Sunny Isle Hotel!</a></h1>
+    </div>
+    <div class="registerform">
+        <h1 class="loginfont1">Register</h1>
+        <form name="formregister" method="POST" action="register.php" onsubmit="return Register()">
+            <div class="infofont">
+                <label>Username: <input id="Username" type="text" name="Username" size ="20"></label><br>
+                <label>Password: <input id="Password"type="text" name="Password" size ="20" ></label><br>
+                <label>First Name: <input id="FirstName"type="text" name="FirstName" size ="20"></label><br>
+                <label>Last Name: <input id ="LastName" type="text" name="LastName" size ="20" ></label><br>
+                <label>Email: <input  id ="Email"type="text" name="Email" size ="20"></label><br>
+                <label>Phone Number: <input id ="PhoneNumber"type="text" name="PhoneNumber" size ="20"></label><br>
+                <label>Passport Number: <input id="PassportNumber" type="text" name="PassportNumber" size ="20"></label><br>
+            </div>
+            <div id="errorsubmit"><br></div>
+            <div class="log2">
+                <input type="submit" name="Submit" onclick="Register()" class="submitbtn" value="Submit">
+            </div>
+        </form>
+        <a class="backlogin" href="test.html">Back to Log in</a><br>
+        <a class="homepage" href="homepage.html">>>Homepage</a><br>
+
+    </div>
+
+</body>
+
+</html>
